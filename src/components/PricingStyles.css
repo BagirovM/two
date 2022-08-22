@@ -1,0 +1,120 @@
+.pricing {
+    width: 100%;
+    background-color: #000;
+}
+.card-container {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.card-container .card  {
+    border: 1px solid #eee;
+    color: #eee;
+    padding-bottom: 40px;
+    
+}
+.ticket{
+    text-align: center;
+    padding-top: 20px;
+}
+.card {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 30px;
+}
+.card:hover{
+    border: 5px solid aquamarine;
+}
+.card h3 {
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+.card .bar {
+    border-bottom: 5px solid #eee;
+    width: 10%;
+    
+    margin: 1.5rem auto;
+    display: block;
+}
+.card .btc {
+    font-size: 3rem;
+    font-weight: 600;
+    padding: .8rem;
+    padding-bottom: 10px;
+
+}
+
+.pricing p {
+    color: #eee;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+   
+}
+.p{
+    margin-bottom: 20px;
+}
+.card .btn {
+    display: block;
+    width: 80%;
+    margin: 2rem auto;
+}
+.card:hover{
+    color: aquamarine;
+    transition: 0.5s linear;
+}
+.discount{
+    text-align: center;
+    padding-top: 50px;
+    color: #eee;
+    
+}
+.con{
+    font-size: 2rem;
+}
+.contact{
+    margin-left: 20rem;
+    margin-top: 30px;
+}
+.people{
+    width: 40%;
+    line-height: 30px;
+    padding-top: 30px;
+    margin-right: 11rem;
+    float: right;
+}
+.company{
+   width: 30%; 
+   float: left;
+   margin-left: 7rem;
+   padding-top: 20px;
+}
+
+
+@media screen and (max-width: 940px) {
+    .card-container {
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+    .discount{
+        margin-left: 0%;
+        padding: 0%;
+        padding-top: 2rem;
+        text-align: center;
+    }
+    .people{
+        width: 80%;
+        margin-right: 4rem;
+    }
+    .company{
+        width: 50%;
+        margin-left: 20px;
+        padding-bottom: 20px;
+    }
+    .contact{
+        margin-left: 10%;
+    }
+}
+
